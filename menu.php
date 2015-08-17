@@ -1,5 +1,5 @@
 <div id="menu">
-	<img class="logo" src="img/logo.jpg" alt="logo">
+	<img class="logo" src="img/logo3.png" alt="logo">
 	<ul>
 		<li><a href="woman.php"> Kvinna </a></li>
 		<li><a href="man.php"> Man </a></li>
