@@ -1,10 +1,6 @@
 <?php include 'header.php'; ?>
-<?php include 'menu-shop.php'; ?>
-
-<div class="wrapper">
-	
-
-</div>
+<?php include 'menu.php'; ?>
+KASSA
 
 
 <?php include 'footer.php'; ?>
