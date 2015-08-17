@@ -1,8 +1,9 @@
-<?php 
+<div class="wrapper">
+	<?php 
 	include 'header.php'; 
 	include 'menu.php';
 ?>
-MAN
+</div>
 
 <?php
 include 'footer.php';
