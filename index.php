@@ -2,7 +2,6 @@
 	include 'header.php';
 	include 'menu.php';  	
 ?>
-
 <div id="slider">
 	<div class="box">
 		<div id="left">
