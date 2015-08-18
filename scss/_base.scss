@@ -48,13 +48,13 @@ p, li{
 		}
 	}
 	a{
-		color: black;
+		color: white;
 		text-decoration: none;
 		&:link {
-			color: black;
+			color: white;
 		}
 		&:visited{
-			color: black;
+			color: white;
 		}
 	}
 }
@@ -68,7 +68,7 @@ p, li{
 	display: block;
 	margin: 0 auto;
 	width: 80%;
-	border: 1px solid black;
+	//border: 1px solid black;
 	.box {
 		margin: 0 auto;
 	}
@@ -519,9 +519,9 @@ p, li{
 	width: 60%;
 }
 
-.wrapper{
+body{
 	
-	background: url('../img/tri1.jpg') no-repeat center center; 
+	background: url('../img/fog2.png') no-repeat center center; 
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;

@@ -392,12 +392,12 @@ p, li {
       line-height: 3em;
       vertical-align: middle; }
   #menu a {
-    color: black;
+    color: white;
     text-decoration: none; }
     #menu a:link {
-      color: black; }
+      color: white; }
     #menu a:visited {
-      color: black; }
+      color: white; }
 
 /********************************************************************************/
 /***************************** STARTPAGE ****************************************/
@@ -405,8 +405,7 @@ p, li {
 #slider {
   display: block;
   margin: 0 auto;
-  width: 80%;
-  border: 1px solid black; }
+  width: 80%; }
   #slider .box {
     margin: 0 auto; }
 
@@ -767,8 +766,8 @@ p, li {
   margin: 0 auto;
   width: 60%; }
 
-.wrapper {
-  background: url("../img/tri1.jpg") no-repeat center center;
+body {
+  background: url("../img/fog2.png") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
