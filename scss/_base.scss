@@ -8,7 +8,7 @@ body{
 		-moz-background-size: cover;
 		-o-background-size: cover;
 	background-size: cover;
-	height: 100vh;
+	height: 120vh;
 	width: 100%;
 }
 
@@ -79,15 +79,15 @@ p, li{
 /********************************************************************************/
 
 #slider {
+	background-color: rgba(0,0,0,.2);
 	color: white;
 	display: block;
 	font-size: 2em;
+	height: 500px;
 	margin: 0 auto;
-	width: 60%;
-	//border: 1px solid black;
-	.box {
-		margin: 0 auto;
-	}
+	margin-top: 30px;
+	text-align: center;
+	width: 70%;
 }
 
 
@@ -100,7 +100,7 @@ p, li{
 #middle {
     text-align: center;
     white-space: nowrap;
-	height: 600px;
+	height: 500px;
 	width: 800px;
 }
 
@@ -115,9 +115,7 @@ p, li{
 }
 
 #btn_left, #btn_right {
-	height: 90px;
 	margin: 0 10px;
-	width: 40px;
 }
 
 /********************************* CATEGORY BAR*****************************************/
