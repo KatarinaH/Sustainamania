@@ -3,12 +3,12 @@
 /********************************************************************************/
 body{
 	
-	background: url('../img/fog2.png') no-repeat center center; 
+	background: url('../img/purplefog).png') no-repeat center center fixed; 
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 	background-size: cover;
-	height: 100%;
+	height: auto;
 	width: 100%;
 }
 
@@ -149,12 +149,13 @@ p, li{
 
 /********************************* CLOTHES ***************************************/
 #shop-wrapper{
+	color: white;
 	width: 70%;
 	margin: 0 auto;
 
 	.buy{
-			background-color: #355515;
-			color: white;
+			background-color: white;
+			color: black;
 			float: right;
 			font-family: 'Open Sans', sans-serif;
 			font-size: .8em;
@@ -193,8 +194,8 @@ p, li{
 		margin-top: 2%;
 		width: 84%;
 		.cell-item {
+			background-color: rgba(0,0,0,.5);
 			margin: 2%;
-			outline: 1px solid #e8e8ee;
 			width: 29%;
 			img {
 				height: auto;
@@ -207,9 +208,6 @@ p, li{
 			}
 		}
 		
-	}
-	#woman, #man, #kids, #home, .category-all {
-		display: none;
 	}
 }
 

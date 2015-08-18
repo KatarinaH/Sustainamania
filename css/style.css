@@ -356,12 +356,12 @@ th {
 /***************************** GENERAL ******************************************/
 /********************************************************************************/
 body {
-  background: url("../img/fog2.png") no-repeat center center;
+  background: url("../img/purplefog).png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100%;
+  height: auto;
   width: 100%; }
 
 h1 {
@@ -469,11 +469,12 @@ p, li {
 
 /********************************* CLOTHES ***************************************/
 #shop-wrapper {
+  color: white;
   width: 70%;
   margin: 0 auto; }
   #shop-wrapper .buy {
-    background-color: #355515;
-    color: white;
+    background-color: white;
+    color: black;
     float: right;
     font-family: 'Open Sans', sans-serif;
     font-size: .8em;
@@ -505,8 +506,8 @@ p, li {
     margin-top: 2%;
     width: 84%; }
     #shop-wrapper .clothes .cell-item {
+      background-color: rgba(0, 0, 0, 0.5);
       margin: 2%;
-      outline: 1px solid #e8e8ee;
       width: 29%; }
       #shop-wrapper .clothes .cell-item img {
         height: auto;
@@ -515,8 +516,6 @@ p, li {
         padding-left: 5%;
         margin-top: 1%;
         margin-bottom: 4%; }
-  #shop-wrapper #woman, #shop-wrapper #man, #shop-wrapper #kids, #shop-wrapper #home, #shop-wrapper .category-all {
-    display: none; }
 
 .overlayShop {
   background-color: rgba(0, 0, 0, 0.3);
