@@ -361,7 +361,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 120vh;
+  height: 100%;
   width: 100%; }
 
 h1 {
@@ -630,8 +630,9 @@ p, li {
 /***************************** INFO PAGE ****************************************/
 /********************************************************************************/
 #info-wrapper {
+  background-color: rgba(0, 0, 0, 0.2);
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 30px;
   width: 80%; }
   #info-wrapper .cell-text {
     background-color: rgba(250, 250, 250, 0.6);
@@ -659,7 +660,7 @@ p, li {
     top: -110%;
     left: 10%;
     right: 10%;
-    background-color: #fff;
+    background-color: white;
     color: #7F7F7F;
     padding: 20px;
     border: 2px solid #ccc;
@@ -681,7 +682,11 @@ p, li {
     #info-wrapper .box h1 {
       margin: -20px -20px 0px -20px;
       padding: 10px;
-      background-color: #355515;
+      background: url("../img/fog2.png") no-repeat center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
       color: white;
       -moz-border-radius: 20px 20px 0px 0px;
       -webkit-border-top-left-radius: 20px;
